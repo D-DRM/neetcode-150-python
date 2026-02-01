@@ -1,0 +1,14 @@
+#1. TWO SUM
+# ARRAYS AND HASHING
+# DIFFICULTY: Easy
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        seen={}
+        for i in range(len(nums)):
+            comp=target-nums[i]
+            if comp in seen and seen[comp]!=i:
+                return i,seen[comp]
+            else:
+                seen[nums[i]]=i
+            
+        
