@@ -1,7 +1,7 @@
 # neetcode-150-cpp
-Neetcode 150 solutions&amp; patterns in c++ 
+Neetcode 150 solutions&amp; patterns in python
 
-# NeetCode 150 – C++
+# NeetCode 150 – Python
 
 ## Progress Tracker
 
